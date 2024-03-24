@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js" defer></script>
+    <title>Clued up</title>
+</head>
+<body>
+    <section class="background_image">
+        <h1 class="name">Clued up</h1>
+        <button id="start">start</button>
+    </section>
+
+    <h2 id="beurtveld">De beurt is aan: Team Roze!</h2>
+    <section class="main_container">
+        <div class="dobbelsteen_container">
+            <img src="images/one.png" alt="Dobbelsteen 1">
+            <p id="dobbelsteen"></p>
+            <button id="dobbelsteen_knop">Gooi de dobbelsteen!</button>
+        </div>
+
+        <section class="bord_container">
+            <div id="v1">1</div>
+            <div id="v2">2</div>
+            <div id="v3">3</div>  
+            <div id="v4">4</div>
+            <div id="v5">5</div>
+            <div id="v6">6</div>
+            <div id="v12">12</div>
+            <div id="v11">11</div>
+            <div id="v10">10</div>
+            <div id="v9">9</div>
+            <div id="v8">8</div>
+            <div id="v7">7</div>
+            <div id="v13">13</div>
+            <div id="v14">14</div>
+            <div id="v15">15</div>
+            <div id="v16">16</div>
+            <div id="v17">17</div>
+            <div id="v18">18</div>
+            <div id="v24">24</div>
+            <div id="v23">23</div>
+            <div id="v22">22</div>
+            <div id="v21">21</div>
+            <div id="v20">20</div>
+            <div id="v19">19</div>
+            <div id="v25">25</div>
+            <div id="v26">26</div>
+            <div id="v27">27</div>
+            <div id="v28">28</div>
+            <div id="v29">29</div>
+            <div id="v30">30</div>
+        </section> 
+
+        <div class="kaart_container">
+            <button id="kaartje_knop">Pak een kaartje!</button>
+        </div>
+    </section>
+    <section id="kaartje">
+        <div id="timer"></div>
+        <ul id="woordenlijst"></ul>
+        <section class="correct_aantal_woorden">
+            <p>Hoeveel woorden heeft jouw team correct geraden?</p>
+            <label><input type="radio" name="correctWords" value="0" checked> 0</label>
+            <label><input type="radio" name="correctWords" value="1"> 1</label>
+            <label><input type="radio" name="correctWords" value="2"> 2</label>
+            <label><input type="radio" name="correctWords" value="3"> 3</label>
+            <label><input type="radio" name="correctWords" value="4"> 4</label>
+            <label><input type="radio" name="correctWords" value="5"> 5</label>
+            <button id="opslaan_knop">Sla op</button>
+        </section>
+    </section>
+    <section>
+        <p id="tekstveld"></p>
+    </section>
+</body>
+</html>
